@@ -1,79 +1,78 @@
-.text1{
-    width: 500px;
-    height: 500px;
-    border: 5px solid black;
-    overflow: scroll;
-    overflow-x: hidden;
+.text1 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  overflow: scroll;
+  overflow-x: hidden;
 }
-.text2{
-    width: 500px;
-    height: 500px;
-    border: 5px solid rgb(0, 255, 213);
-    
+.text2 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid rgb(0, 255, 213);
 }
-.p-container{
-    width: 150px;
-    border: 1px solid black;
-    white-space: nowrap;
-    overflow: hidden;
+.p-container {
+  width: 150px;
+  border: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.p-tag{
-    text-overflow: ellipsis;
-    overflow: hidden;
+.p-tag {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
-.box-container, .box-content{
-    width: 200px;
-    height: 200px;
-    
+.box-container,
+.box-content {
+  width: 200px;
+  height: 200px;
 }
-.box-container{
-    background-color: lightseagreen;
+.box-container {
+  background-color: lightseagreen;
 }
-.box-content{
-    background-color: rgb(51, 255, 0);
-    transform: rotate(45deg) scale(0.5);
-    text-align: center;
+.box-content {
+  background-color: rgb(51, 255, 0);
+  transform: rotate(45deg) scale(0.5);
+  text-align: center;
 }
-.trans-container{
-    width: 150px;
-    height: 150px;
-    background-color: lightseagreen;
-    transition: all 1s;
-    margin: auto;
-    position: relative;
-    top: 250px;
+.trans-container {
+  width: 150px;
+  height: 150px;
+  background-color: lightseagreen;
+  transition: all 1s;
+  margin: auto;
+  position: relative;
+  top: 250px;
 }
-.trans-container:hover{
-    transform: scale(3,3);
+.trans-container:hover {
+  transform: scale(3, 3);
 }
-.field{
-    padding: 50px;
+.field {
+  padding: 50px;
 }
 
-.field h2{
-    opacity: 0;
-    transition: all 1s linear 0.35s;
+.field h2 {
+  opacity: 0;
+  transition: all 1s linear 0.35s;
 }
-.field:hover h2{
-    opacity: 1;
+.field:hover h2 {
+  opacity: 1;
 }
-.bat{
-    width: 60px;
-    transform: translate(300px) rotate(60deg);
-    transform-origin: top right;
-    transition: all 0.2s ease-in;
+.bat {
+  width: 60px;
+  transform: translate(300px) rotate(60deg);
+  transform-origin: top right;
+  transition: all 0.2s ease-in;
 }
-.field:hover .bat{
-    transform: translate(300px) rotate(-20deg);
+.field:hover .bat {
+  transform: translate(300px) rotate(-20deg);
 }
-.ball{
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border-radius: 50%;
-    transform: translate(435px,-115px);
-    transition: all 0.2s ease-out 0.22s;
+.ball {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(435px, -115px);
+  transition: all 0.2s ease-out 0.22s;
 }
-.field:hover .ball{
-    transform: translate(1300px,-305px);
+.field:hover .ball {
+  transform: translate(1300px, -305px);
 }
